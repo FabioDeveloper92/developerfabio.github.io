@@ -137,38 +137,6 @@
 		});
 	});
 
-	//   Circular Progress
-	$(function () {
-		$('.chart').easyPieChart({
-			size: 160,
-			barColor: '#AA46BD',
-			scaleLength: 0,
-			lineWidth: 4,
-			trackColor: '#E6E6E7',
-			lineCap: 'circle',
-			animate: 2000,
-		});
-
-		$('.chart2').easyPieChart({
-			size: 160,
-			barColor: '#F37514',
-			scaleLength: 0,
-			lineWidth: 4,
-			trackColor: '#E6E6E7',
-			lineCap: 'circle',
-			animate: 2000,
-		});
-		$('.chart3').easyPieChart({
-			size: 160,
-			barColor: '#0DAA5E',
-			scaleLength: 0,
-			lineWidth: 4,
-			trackColor: '#E6E6E7',
-			lineCap: 'circle',
-			animate: 2000,
-		});
-	});
-
 	// Nice Select
 
 	if ($('select').length) {
